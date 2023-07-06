@@ -6,9 +6,9 @@ class fila_prioritaria:
         self.fila = LinkedList()
     def enfila(self, valor):
         if valor >= 60:
-            self.filaPrio.inserir_inicio(valor)
+            self.filaPrio.inserir_fim(valor)
         else:
-            self.fila.inserir_inicio(valor)
+            self.fila.inserir_fim(valor)
     def desenfila(self):
         if self.filaPrio.esta_vazio():
             self.fila.remove(0)

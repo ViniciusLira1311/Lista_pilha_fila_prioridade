@@ -5,7 +5,7 @@ class Pilha:
         self.pilha = LinkedList()
     
     def push(self, valor):
-        self.pilha.inserir_fim(valor)
+        self.pilha.inserir_inicio(valor)
     
     def pop(self):
         self.pilha.remove_indice(0)

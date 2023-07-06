@@ -5,7 +5,7 @@ class fila:
         self.fila = LinkedList()
     
     def enfila(self, valor):
-        self.fila.inserir_inicio(valor)
+        self.fila.inserir_fim(valor)
     
     def desenfila(self):
         self.fila.remove_indice(0)
